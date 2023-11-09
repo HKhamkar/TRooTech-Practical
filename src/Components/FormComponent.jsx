@@ -196,7 +196,6 @@ const FormComponent = ({
           render={({ field }) => (
             <TextField
               {...field}
-              required
               type="file"
               fullWidth
               variant="outlined"
